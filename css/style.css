@@ -510,8 +510,8 @@ blockquote {
 /* Galley Area css
 ============================================================================================ */
 .maispice{
-  font-family: 'Poiret One', cursive;
-  /*font-family: 'Prata', serif;*/
+  /*font-family: 'Poiret One', cursive;*/
+  font-family: 'Prata', serif;
   font-size: 62px;
   color: black;
 }
