@@ -574,10 +574,10 @@ blockquote {
 
 @keyframes shadow-pulse{
   0%{
-    box-shadow: 0 0 0 0px rgba(0,0,0,0.8);
+    box-shadow: 0 0 0 0px rgba(0,0,0,0);
   }
    100%{
-    box-shadow: 0 0 0 40px rgba(0,0,0,0);
+    box-shadow: 0 0 0 40px rgba(0,0,0,0.8);
   }
 }
 
