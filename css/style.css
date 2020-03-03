@@ -512,10 +512,12 @@ blockquote {
 .maispice{
   font-family: 'Special Elite', ;
   font-size: 52px;
+  color: black;
 }
 .maispice2{
   font-size: 25px;
   font-family: 'italic', ;
+  color: black;
 }
 .header2{
   margin: 30px;
