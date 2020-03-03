@@ -393,7 +393,7 @@ blockquote {
 }
 
 .img3 {
-    background: url('../img/spice (3).jpg');
+    background: url('../img/spice (3).jpg') linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
     background-size: cover;
 }
 
@@ -521,7 +521,7 @@ blockquote {
   font-family: 'Dancing Script', cursive;
   color: #000;
 }
-.drk:after {
+/*.drk:after {
     content:"";
     display:block;
     position:absolute;
@@ -531,7 +531,7 @@ blockquote {
     right:0;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
     /*opacity:0.5;*/
-}
+}*/
 .header2{
   margin: 30px;
   font-size: 20px;
