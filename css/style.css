@@ -517,8 +517,9 @@ blockquote {
 }
 .maispice2{
   font-size: 35px;
+  font-weight: 200;
   font-family: 'Dancing Script', cursive;
-  color: #f8b600;
+  color: #000;
 }
 .header2{
   margin: 30px;
