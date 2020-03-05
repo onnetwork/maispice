@@ -172,6 +172,7 @@ button:focus {
 /*----------------------------------------------------*/
 .logo_h{
    color: #4b0010!important;
+   font-family: 'Poiret One', cursive;
 }
 .logo_h:hover{
    color: #faba00!important;
