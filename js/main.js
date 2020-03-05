@@ -7,7 +7,7 @@
     --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
-        $("#preloder").delay(200).fadeOut("slow");
+        $("#preloder").delay(50).fadeOut("slow");
     });
 // Initiate the wowjs animation library
   new WOW().init();
