@@ -574,10 +574,10 @@ blockquote {
 
 @keyframes shadow-pulse{
   0%{
-    box-shadow: 0 0 0 0px rgba(0,0,0,0);
+    box-shadow: 0 0 0 0px rgba(0,0,0,0.8);
   }
    100%{
-    box-shadow: 0 0 0 40px rgba(0,0,0,5);
+    box-shadow: 0 0 0 15px rgba(0,0,0,0);
   }
 }
 
@@ -596,7 +596,7 @@ blockquote {
   /*background: #1bb1dc;*/
   background: none;
   color: #4b0010;
-  animation: shadow-pulse 2s infinite;
+  animation: shadow-pulses 2s infinite;
   border: solid 1px #000;
 }
 
@@ -607,7 +607,7 @@ blockquote {
   text-decoration: none;
 }
 
-@keyframes shadow-pulse{
+@keyframes shadow-pulses{
   0%{
     box-shadow: 0 0 0 0px rgba(0,0,0,0.4);
   }
@@ -708,6 +708,8 @@ blockquote {
 
 .about-img img:hover {
   width: 100%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid transparent;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
@@ -760,8 +762,21 @@ blockquote {
   .service_inner .service_text p {
     margin-bottom: 0px; }
 
+  .service_img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s ease-in-out;
+}
+
+  .service_img img:hover {
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+  border: 1px solid transparent;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 /* End Service Area css
-============================================================================================ */
 /* About Area css
 ============================================================================================ */
 .about_inner .col-lg-6 {
